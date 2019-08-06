@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tm-task" />
+        <module name="tm-eureka" />
+        <module name="tm-biz-cc" />
+        <module name="tm-biz-uc" />
+        <module name="tm-biz-cnc" />
+        <module name="tm-h5" />
+        <module name="tm-external" />
+        <module name="tm-midware" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tm-flow" target="1.8" />
+      <module name="tm-mq" target="1.8" />
+      <module name="tm-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
