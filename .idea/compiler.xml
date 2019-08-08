@@ -22,4 +22,16 @@
       <module name="tm-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tm-biz-cc" options="-parameters" />
+      <module name="tm-biz-cnc" options="-parameters" />
+      <module name="tm-biz-uc" options="-parameters" />
+      <module name="tm-eureka" options="-parameters" />
+      <module name="tm-external" options="-parameters" />
+      <module name="tm-h5" options="-parameters" />
+      <module name="tm-midware" options="-parameters" />
+      <module name="tm-task" options="-parameters" />
+    </option>
+  </component>
 </project>

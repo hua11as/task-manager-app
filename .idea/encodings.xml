@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tm-biz-cc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tm-biz-cnc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tm-biz-uc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tm-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tm-external" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tm-h5" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tm-midware" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tm-task" charset="UTF-8" />
+  </component>
+</project>
