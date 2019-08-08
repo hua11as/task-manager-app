@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/tm-flow/pom.xml" />
+        <option value="$PROJECT_DIR$/tm-midware/pom.xml" />
         <option value="$PROJECT_DIR$/tm-mq/pom.xml" />
         <option value="$PROJECT_DIR$/tm-web/pom.xml" />
       </set>
