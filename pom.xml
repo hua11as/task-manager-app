@@ -20,13 +20,6 @@
         <module>tm-biz-uc</module>
         <module>tm-biz-cc</module>
         <module>tm-biz-cnc</module>
-        <module>tm-eureka</module>
+        <module>tm-eureka-server</module>
     </modules>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.meyacom.stone</groupId>
-            <artifactId>stone-starter-service</artifactId>
-        </dependency>
-    </dependencies>
 </project>

@@ -5,10 +5,9 @@
     <file url="file://$PROJECT_DIR$/tm-biz-cc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tm-biz-cnc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tm-biz-uc" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tm-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tm-eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tm-external" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tm-h5" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/tm-midware" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tm-task" charset="UTF-8" />
   </component>
 </project>

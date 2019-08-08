@@ -11,5 +11,10 @@
 
     <artifactId>tm-biz-uc</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.meyacom.stone</groupId>
+            <artifactId>stone-starter-service</artifactId>
+        </dependency>
+    </dependencies>
 </project>
