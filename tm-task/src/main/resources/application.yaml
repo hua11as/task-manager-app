@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: tm-task
+
+server:
+  port: 7001
+
