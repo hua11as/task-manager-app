@@ -7,9 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tm-task" />
+        <module name="tm-biz-cnc" />
         <module name="tm-biz-cc" />
         <module name="tm-biz-uc" />
-        <module name="tm-biz-cnc" />
         <module name="tm-eureka-server" />
         <module name="tm-h5" />
         <module name="tm-external" />
