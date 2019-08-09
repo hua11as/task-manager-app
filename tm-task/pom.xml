@@ -16,5 +16,10 @@
             <groupId>com.meyacom.stone</groupId>
             <artifactId>stone-starter-service</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
     </dependencies>
 </project>

@@ -1,6 +1,6 @@
 package com.taiping.tm.persistence.dao;
 
-import com.taiping.tm.persistence.entity.Student;
+import com.taiping.tm.persistence.domain.Student;
 import java.util.List;
 
 public interface StudentMapper {

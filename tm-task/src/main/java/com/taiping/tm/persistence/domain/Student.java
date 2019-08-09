@@ -1,4 +1,4 @@
-package com.taiping.tm.persistence.entity;
+package com.taiping.tm.persistence.domain;
 
 import java.util.Date;
 

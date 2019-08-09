@@ -19,7 +19,7 @@
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
 
-        <javaModelGenerator targetPackage="com.taiping.tm.persistence.entity" targetProject="src/main/java">
+        <javaModelGenerator targetPackage="com.taiping.tm.persistence.domain" targetProject="src/main/java">
             <property name="enableSubPackages" value="false"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
