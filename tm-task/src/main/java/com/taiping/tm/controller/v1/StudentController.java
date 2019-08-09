@@ -1,4 +1,4 @@
-package com.taiping.tm.controller;
+package com.taiping.tm.controller.v1;
 
 import com.taiping.tm.persistence.domain.Student;
 import com.taiping.tm.service.StudentService;
