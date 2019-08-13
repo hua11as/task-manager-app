@@ -1,5 +1,6 @@
 package com.taiping.tm.external.controller;
 
+import com.taiping.tm.external.controller.v1.ExternalController;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

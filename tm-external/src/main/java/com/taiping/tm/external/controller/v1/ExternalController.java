@@ -1,4 +1,4 @@
-package com.taiping.tm.external.controller;
+package com.taiping.tm.external.controller.v1;
 
 import com.alibaba.fastjson.JSONObject;
 import com.taiping.tm.external.dto.ExternalReqDTO;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * date: 2019/6/27
  */
 @RestController
-@RequestMapping("/external")
+@RequestMapping("/external/v1")
 public class ExternalController {
 
     @Autowired

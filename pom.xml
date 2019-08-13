@@ -5,14 +5,14 @@
     <parent>
         <groupId>com.meyacom.stone</groupId>
         <artifactId>stone-parent</artifactId>
-        <version>0.0.1.SNAPSHOT</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.taiping.tm</groupId>
     <artifactId>task-manager-app</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>tm-h5</module>
         <module>tm-task</module>

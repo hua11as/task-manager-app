@@ -5,7 +5,7 @@
     <parent>
         <artifactId>task-manager-app</artifactId>
         <groupId>com.taiping.tm</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
