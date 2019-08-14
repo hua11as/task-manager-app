@@ -14,7 +14,17 @@
     <dependencies>
         <dependency>
             <groupId>com.meyacom.stone</groupId>
-            <artifactId>stone-starter-service</artifactId>
+            <artifactId>stone-micro-service</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.meyacom.stone</groupId>
+            <artifactId>stone-amqp</artifactId>
         </dependency>
     </dependencies>
 </project>

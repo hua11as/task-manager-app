@@ -11,7 +11,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * date: 2019/6/27
  */
 @SpringBootApplication
-@EnableFeignClients
 @EnableEurekaClient
 public class ExternalApplication {
     public static void main(String[] args) {

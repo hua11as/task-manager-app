@@ -1,6 +1,6 @@
 package com.taiping.tm.external.controller;
 
-import com.taiping.tm.external.controller.v1.ExternalController;
+import com.taiping.tm.external.controller.v1.TaskFlowController;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -27,12 +27,12 @@ public class ControllerTest {
     private MockMvc mockMvc;
 
     @Autowired
-    ExternalController externalController;
+    TaskFlowController taskFlowController;
 
     @Before
     public void setup() {
         MockitoAnnotations.initMocks(this);
-        this.mockMvc = MockMvcBuilders.standaloneSetup(externalController).build();
+        this.mockMvc = MockMvcBuilders.standaloneSetup(taskFlowController).build();
     }
 
     @Test

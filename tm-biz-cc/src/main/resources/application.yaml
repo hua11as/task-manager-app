@@ -9,11 +9,11 @@ spring:
     password: As_123456
 
 server:
-  port: 7001
+  port: 7002
 
 mybatis:
-  mapper-locations: classpath*:com/taiping/tm/task/persistence/mapper/*.xml
-  type-aliases-package: com.taiping.tm.task.persistence.domain
+  mapper-locations: classpath*:com/taiping/tm/biz/persistence/mapper/*.xml
+  type-aliases-package: com.taiping.tm.biz.persistence.domain
 
 eureka:
   client:

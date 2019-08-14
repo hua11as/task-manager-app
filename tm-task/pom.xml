@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.meyacom.stone</groupId>
-            <artifactId>stone-starter-service</artifactId>
+            <artifactId>stone-micro-service</artifactId>
         </dependency>
 
         <dependency>
