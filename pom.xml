@@ -21,5 +21,6 @@
         <module>tm-biz-cc</module>
         <module>tm-biz-cnc</module>
         <module>tm-eureka-server</module>
+        <module>tm-common</module>
     </modules>
 </project>

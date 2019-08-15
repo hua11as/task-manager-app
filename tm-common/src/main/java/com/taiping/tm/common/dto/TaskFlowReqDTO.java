@@ -1,4 +1,4 @@
-package com.taiping.tm.external.controller.dto;
+package com.taiping.tm.common.dto;
 
 import lombok.Data;
 import lombok.ToString;
@@ -13,5 +13,8 @@ import java.io.Serializable;
 @Data
 @ToString
 public class TaskFlowReqDTO implements Serializable {
+    private static final long serialVersionUID = 5753011329268146497L;
+
     private String bizNo;
+    private Double score;
 }

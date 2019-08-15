@@ -1,7 +1,7 @@
 package com.taiping.tm.external.controller.v1;
 
 import com.meyacom.stone.controller.dto.BaseRespDTO;
-import com.taiping.tm.external.controller.dto.TaskFlowReqDTO;
+import com.taiping.tm.common.dto.TaskFlowReqDTO;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -9,7 +9,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import static com.taiping.tm.external.amqp.AmqpConstants.QueueConstants;
+import java.util.Random;
+
+import static com.taiping.tm.common.constants.AmqpConstants.*;
 
 /**
  * desc:
@@ -17,7 +19,7 @@ import static com.taiping.tm.external.amqp.AmqpConstants.QueueConstants;
  * date: 2019/6/27
  */
 @RestController
-@RequestMapping("/external/v1/taskFlow")
+@RequestMapping("/v1/taskFlow")
 public class TaskFlowController {
 
     @Autowired
@@ -25,8 +27,11 @@ public class TaskFlowController {
 
     @PostMapping("/start")
     public BaseRespDTO start(@RequestBody TaskFlowReqDTO reqDTO) {
+        Random r = new Random();
+        reqDTO.setScore(r.nextDouble()*1000000);
         // step1：发送MQ
-        rabbitTemplate.convertAndSend(QueueConstants.QUE_CC_TASK_FLOW_START, reqDTO);
+        rabbitTemplate.convertAndSend(ExchangeConstants.EX_AMQ_DIRECT, QueueConstants.QUE_CC_TASK_FLOW_START,
+                reqDTO);
 
         // step2: 记录日志
 

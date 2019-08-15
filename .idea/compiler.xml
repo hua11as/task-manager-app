@@ -6,10 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tm-biz-uc" />
+        <module name="tm-common" />
         <module name="tm-task" />
-        <module name="tm-biz-cc" />
         <module name="tm-biz-cnc" />
+        <module name="tm-biz-cc" />
+        <module name="tm-biz-uc" />
         <module name="tm-eureka-server" />
         <module name="tm-h5" />
         <module name="tm-external" />
@@ -27,6 +28,7 @@
       <module name="tm-biz-cc" options="-parameters" />
       <module name="tm-biz-cnc" options="-parameters" />
       <module name="tm-biz-uc" options="-parameters" />
+      <module name="tm-common" options="-parameters" />
       <module name="tm-eureka-server" options="-parameters" />
       <module name="tm-external" options="-parameters" />
       <module name="tm-h5" options="-parameters" />
