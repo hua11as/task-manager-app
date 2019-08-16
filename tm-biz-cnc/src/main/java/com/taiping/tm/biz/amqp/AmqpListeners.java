@@ -27,23 +27,23 @@ public class AmqpListeners {
     @Autowired
     private ObjectMapper objectMapper;
 
-    @RabbitListener(queues = QueueConstants.QUE_CC_TASK_FLOW_START)
+    @RabbitListener(queues = QueueConstants.QUE_CNC_TASK_FLOW_START)
     public void taskFlowStartListener(TaskFlowReqDTO reqDTO) throws JsonProcessingException {
         // 生成任务的score
         Random r = new Random();
         double score = r.nextDouble()*1000000;
 
         // 将理赔车任务放入有序队列中
-        redisTemplate.opsForZSet().add(RedisConstants.ZsetKeyConstants.ZSET_CC_AUTO_ALLOT, objectMapper.writeValueAsString(reqDTO),
+        redisTemplate.opsForZSet().add(RedisConstants.ZsetKeyConstants.ZSET_CNC_AUTO_ALLOT, objectMapper.writeValueAsString(reqDTO),
                 score);
     }
 
-    @RabbitListener(queues = QueueConstants.QUE_CC_TASK_FLOW_SUBMIT)
+    @RabbitListener(queues = QueueConstants.QUE_CNC_TASK_FLOW_SUBMIT)
     public void taskFlowSubmitListener() {
 
     }
 
-    @RabbitListener(queues = QueueConstants.QUE_CC_ALLOT_OPERATOR)
+    @RabbitListener(queues = QueueConstants.QUE_CNC_ALLOT_OPERATOR)
     public void allotOperatorListener() {
 
     }

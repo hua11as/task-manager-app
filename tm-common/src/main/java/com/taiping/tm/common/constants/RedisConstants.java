@@ -7,8 +7,12 @@ package com.taiping.tm.common.constants;
  */
 public final class RedisConstants {
 
-    public static final class ZsetKeyConstants{
-        public static final String ZSET_AUTO_ALLOT_CC = "zset.auto.allot.cc";
+    public static final class ZsetKeyConstants {
+        public static final String ZSET_CC_AUTO_ALLOT = "zset.cc.auto.allot";
+
+        public static final String ZSET_CNC_AUTO_ALLOT = "zset.cnc.auto.allot";
+
+        public static final String ZSET_UC_AUTO_ALLOT = "zset.uc.auto.allot";
     }
 
 }

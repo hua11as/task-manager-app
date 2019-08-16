@@ -16,5 +16,26 @@
             <groupId>com.meyacom.stone</groupId>
             <artifactId>stone-micro-service</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.meyacom.stone</groupId>
+            <artifactId>stone-amqp</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.meyacom.stone</groupId>
+            <artifactId>stone-redis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.taiping.tm</groupId>
+            <artifactId>tm-common</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
     </dependencies>
 </project>

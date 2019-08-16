@@ -11,9 +11,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  */
 @SpringBootApplication
 @EnableScheduling
-public class CCBizApplication {
+public class UCBizApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CCBizApplication.class, args);
+        SpringApplication.run(UCBizApplication.class, args);
     }
 }

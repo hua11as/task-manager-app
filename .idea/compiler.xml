@@ -8,11 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="tm-common" />
         <module name="tm-task" />
-        <module name="tm-biz-cnc" />
-        <module name="tm-biz-cc" />
-        <module name="tm-biz-uc" />
-        <module name="tm-eureka-server" />
         <module name="tm-h5" />
+        <module name="tm-biz-cc" />
+        <module name="tm-biz-cnc" />
+        <module name="tm-eureka-server" />
+        <module name="tm-biz-uc" />
         <module name="tm-external" />
       </profile>
     </annotationProcessing>

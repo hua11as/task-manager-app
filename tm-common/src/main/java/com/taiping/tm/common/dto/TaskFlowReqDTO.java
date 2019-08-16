@@ -16,5 +16,5 @@ public class TaskFlowReqDTO implements Serializable {
     private static final long serialVersionUID = 5753011329268146497L;
 
     private String bizNo;
-    private Double score;
+    private String taskType;
 }
